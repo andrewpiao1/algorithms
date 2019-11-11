@@ -36,9 +36,10 @@
 
 var oddCells = function(n, m, indicies){
 
+  //create matrix
   let matrix = [];
   let count = n
-  while (count>0){
+  for (let i=0; i<n; i++){
     matrix.push(new Array(m).fill(0)) //how to create an Array of "m" length
     count--;
   }
